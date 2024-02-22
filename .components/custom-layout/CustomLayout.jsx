@@ -9,7 +9,7 @@ const CustomLayout = (props) => {
     footerComp: Footer,
     contentFooterComp: ContentFooter,
   } = props;
-  console.log(props.toc)
+  
   return (
     <>
       <Header />

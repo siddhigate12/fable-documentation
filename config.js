@@ -10,6 +10,10 @@ module.exports = {
     entries: {},
     baseUrl: "https://sharefable.com/"
   },
+  orderOfPages: [
+    "test-installation",
+    "test-installation/two.mdx"
+  ],
   layout: CustomLayout,
   props: {
     header: {

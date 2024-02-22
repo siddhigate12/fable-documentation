@@ -24,8 +24,7 @@ const flattenTree = (root) => {
 
 
 const Sidepanel = (props) => {
-
-console.log(props.linksTree, flattenTree(props.linksTree))
+  
   return (
     <div className='sidepanel-con'>
       <ul className='sidepanel-list'>
