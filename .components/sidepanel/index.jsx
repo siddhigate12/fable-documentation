@@ -26,7 +26,7 @@ const flattenTree = (root) => {
 const Sidepanel = (props) => {
   
   return (
-    <div className='sidepanel-con'>
+    <div className={`sidepanel-con ${props.show === "init" ? "" : props.show ? "show" : "hide" }`}>
       <ul className='sidepanel-list'>
         {flattenTree(props.linksTree).map((link) => {
           return (
