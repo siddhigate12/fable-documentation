@@ -186,7 +186,7 @@ module.exports = {
       textTertiary: "#713aff",
       backgroundPrimary: "#fff",
       backgroundSecondary: "#16023e",
-      accent: "#ff5cc5",
+      accent: "#f2e6fc",
       border: "#d1d5db",
     },
     typography: {
