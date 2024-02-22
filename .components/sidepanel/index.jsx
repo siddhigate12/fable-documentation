@@ -28,14 +28,14 @@ const Sidepanel = (props) => {
   return (
     <div className={`sidepanel-con ${props.show === "init" ? "" : props.show ? "show" : "hide" }`}>
       <ul className='sidepanel-list'>
-        {flattenTree(props.linksTree).map((link) => {
+        {flattenTree(props.linksTree).map((link, idx) => {
           return (
             <li
               style={{
                 marginLeft: link.depth * 10
               }}
               className={`sidepanel-list-item ${link.url ? "url" : ""}`}
-               key={link.url}
+               key={idx}
             >
               <a 
                 href={link.url}
