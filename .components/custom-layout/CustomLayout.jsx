@@ -1,6 +1,7 @@
 import React from "react";
 import "../index.css"
 import TOC from "../toc";
+import SupportBanner from "../support-banner";
 
 const CustomLayout = (props) => {
   const {
@@ -17,6 +18,7 @@ const CustomLayout = (props) => {
         <Sidepanel />
         <div className="content">
           {props.children}
+          <SupportBanner />
           <ContentFooter />
         </div>
         <TOC toc={props.toc.length && props.toc} />
