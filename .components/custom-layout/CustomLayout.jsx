@@ -20,7 +20,7 @@ const CustomLayout = (props) => {
     <>
       <Header />
       <div className="content-con">
-        <Sidepanel show={showSidePanel} />
+        <Sidepanel show={showSidePanel} closeSidepanel={() => setShowSidePanel(false)} />
         <div className="content">
           <button type="button" className="menu-icon">
             <img

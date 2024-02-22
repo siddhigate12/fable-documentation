@@ -47,6 +47,14 @@ const Sidepanel = (props) => {
           )
         })}
       </ul>
+      <button type="button" onClick={props.closeSidepanel} className='close-icon'> 
+        <img
+          src="https://fable-tour-app-gamma.s3.ap-south-1.amazonaws.com/root/usr/org/217/7dfd92d92a8648bea42d27194891b127"
+          alt=""
+          width={26}
+          height={26}
+        ></img>
+      </button>
     </div>
   )
 }
