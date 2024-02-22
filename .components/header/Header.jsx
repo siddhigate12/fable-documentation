@@ -136,7 +136,7 @@ const Header = (props) => {
         </div>
       </div>
       <div className={`overlay ${menuOpen ? 'open' : ''}`} onClick={handleToggleMenu}></div>
-      <div className={`menu-content ${menuOpen ? 'open' : ''}`}>
+      <div style={{display: menuOpen ? "block": "none"}} className={`menu-content ${menuOpen ? 'open' : ''}`}>
         <div style={{ height: '100%', padding: '1rem' }}>
           <div className="menu-content-mobile" style={{ overflowY: 'auto' }}>
             {props.props.navLinks.links.map((link) => (

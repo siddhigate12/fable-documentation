@@ -24,19 +24,18 @@ const flattenTree = (root) => {
 
 
 const Sidepanel = (props) => {
-
-console.log(props.linksTree, flattenTree(props.linksTree))
+  
   return (
-    <div className='sidepanel-con'>
+    <div className={`sidepanel-con ${props.show === "init" ? "" : props.show ? "show" : "hide" }`}>
       <ul className='sidepanel-list'>
-        {flattenTree(props.linksTree).map((link) => {
+        {flattenTree(props.linksTree).map((link, idx) => {
           return (
             <li
               style={{
                 marginLeft: link.depth * 10
               }}
               className={`sidepanel-list-item ${link.url ? "url" : ""}`}
-               key={link.url}
+               key={idx}
             >
               <a 
                 href={link.url}
@@ -48,6 +47,14 @@ console.log(props.linksTree, flattenTree(props.linksTree))
           )
         })}
       </ul>
+      <button type="button" onClick={props.closeSidepanel} className='close-icon'> 
+        <img
+          src="https://fable-tour-app-gamma.s3.ap-south-1.amazonaws.com/root/usr/org/217/874242f92619476e85a83a20163a2dc6"
+          alt=""
+          width={26}
+          height={26}
+        ></img>
+      </button>
     </div>
   )
 }
