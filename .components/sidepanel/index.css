@@ -22,6 +22,7 @@
   padding: 0;
   margin: 0;
   cursor: pointer;
+  display: block;
 }
 
 .sidepanel-con.show {
@@ -78,5 +79,9 @@
     width: fit-content;
     transform: translateX(0%);
     border-radius: 0;
+  }
+
+  .close-icon {
+    display: none;
   }
 }
