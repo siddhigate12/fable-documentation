@@ -11,9 +11,11 @@ module.exports = {
     baseUrl: "https://sharefable.com/"
   },
   orderOfPages: [
-    "Installation",
-    "Installation/Welcome-to-Fable.mdx",
-    "Installation/Quick-Start-Guide.mdx"
+    "Introduction",
+    "Introduction/Welcome-to-Fable.mdx",
+    "Introduction/Quick-Start-Guide.mdx",
+    "Capturing Demos",
+    "Capturing Demos/Overview.mdx"
   ],
   layout: CustomLayout,
   props: {
