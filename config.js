@@ -15,7 +15,8 @@ module.exports = {
     "Introduction/Welcome-to-Fable.mdx",
     "Introduction/Quick-Start-Guide.mdx",
     "Capturing-Demos",
-    "Capturing-Demos/Overview.mdx"
+    "Capturing-Demos/Overview.mdx",
+    "Capturing-Demos/Using-the-Extension.mdx"
   ],
   layout: CustomLayout,
   props: {
