@@ -11,6 +11,7 @@ module.exports = {
     baseUrl: "https://sharefable.com/"
   },
   orderOfPages: [
+    "Installation",
     "Installation/Welcome-to-Fable.mdx",
     "Installation/Quick-Start-Guide.mdx"
   ],
