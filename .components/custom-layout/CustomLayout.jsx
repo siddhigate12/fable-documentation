@@ -4,7 +4,7 @@ import TOC from "../toc";
 import SupportBanner from "../support-banner";
 
 const menuIconUrl =
-  "https://fable-tour-app-gamma.s3.ap-south-1.amazonaws.com/root/usr/org/206/443a5a856de3425a8baa9eae3f2befb4";
+  "https://documentden-deployments.s3.us-east-1.amazonaws.com/public/2058d1f5-f692-4341-b4dc-2014ccad5ecc";
 
 const CustomLayout = (props) => {
   const {
