@@ -19,8 +19,7 @@ module.exports = {
     "Capturing-Demos/Using-the-Extension.mdx",
     "Capturing-Demos/Adding-Additional-Captures.mdx"
     "Editing-Demos",
-    "Editing-Demos/Overview.mdx",
-    "Editing-Demos/Types-of-Annotations.mdx"
+    "Editing-Demos/Overview.mdx"
   ],
   layout: CustomLayout,
   props: {
