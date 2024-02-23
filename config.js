@@ -16,7 +16,8 @@ module.exports = {
     "Introduction/Quick-Start-Guide.mdx",
     "Capturing-Demos",
     "Capturing-Demos/Overview.mdx",
-    "Capturing-Demos/Using-the-Extension.mdx"
+    "Capturing-Demos/Using-the-Extension.mdx",
+    "Capturing-Demos/Adding-Additional-Captures.mdx"
   ],
   layout: CustomLayout,
   props: {
