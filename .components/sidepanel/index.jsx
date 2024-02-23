@@ -49,10 +49,11 @@ const Sidepanel = (props) => {
       </ul>
       <button type="button" onClick={props.closeSidepanel} className='close-icon'> 
         <img
-          src="https://fable-tour-app-gamma.s3.ap-south-1.amazonaws.com/root/usr/org/217/874242f92619476e85a83a20163a2dc6"
+          src="https://documentden-deployments.s3.us-east-1.amazonaws.com/public/2058d1f5-f692-4341-b4dc-2014ccad5ecc"
           alt=""
           width={26}
           height={26}
+          style={{transform: "rotate(180deg)"}}
         ></img>
       </button>
     </div>
